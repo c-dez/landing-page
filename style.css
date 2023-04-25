@@ -1,24 +1,59 @@
+@font-face {
+    font-family: alien;
+    src: url(./fonts/SFAlienEncounters.ttf);
+}
+@font-face {
+    font-family: stream;
+    src: url(./fonts/Streamster.ttf);
+}
+@font-face {
+    font-family: roboto-r;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
 body{
     margin: 0;
+    
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #66e3e0;
+    background-color: #fd6396;
     padding-left: 20px;
     padding-right: 20px;
+    border-bottom: 2px solid white;
 }
 
 .header >.logo-text{
     display: flex;
+    flex-direction: column;
     /* flex: 1; */
-    gap: 10px;
+    /* gap: 10px; */
+    font-family: alien;
+    font-size: 36px;
+    /* text-decoration: underline; */
+    /* font-weight: 900; */
+    color: white;
+    align-items: center;
+    
+    
+}
+.header >.logo-text>.kata{
+    font-size: 15px;
+    
 }
 
 .header >.links{
     display: flex;
     /* flex: 1; */
+        font-size: 22px;
+       
+}
+ul .icon{
+    
+    width: 22px;
+    height: 22px;
+    
 }
 .header>.logo{
     display: flex;
@@ -27,10 +62,112 @@ body{
 .links>ul{
     display: flex;
     list-style: none;
-    /* color: black; */
+    font-family: roboto-r;
     gap: 10px;
 }
-a{
+ul a{
     text-decoration: none;
-    color: black;
+    
+    color: white;
+    
 }
+
+
+.background1{
+    /* height: 500px; */
+    background-image: url(./images/background1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: center; */
+    
+    
+    
+}
+.greetings{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    background-color: rgb(1,1,1, .6) ;
+    justify-content: center
+    
+    
+        
+}
+.greetings>.left{
+   display: flex;
+    flex: auto; 
+    flex-direction: column;
+    width: 500px;
+   
+    
+   
+}
+.greetings>.left>.title{
+    font-size: 35px;
+    font-family: stream;
+    font-weight: 900;
+    color:#fd6396;
+    text-align: center;
+    
+ }   
+ .left >.text{
+    text-align: justify;
+    font-size: 18px;
+    
+ }
+ .left a{
+    color: white;
+    font-weight: bold;
+ }
+    
+    
+
+
+.greetings >.right > .image > img{
+    width: 400px;
+    /* object-fit: cover; */
+           
+}
+.greetings>.right>.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: roboto-r;
+   
+    
+   
+    
+   
+}
+
+.background1>.button{
+    background-color: rgb(1,1,1, .6) ;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+.button>button{
+    color: hotpink;
+    background-color: aqua;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    
+    
+    
+    
+   
+    
+    
+
+
+   
