@@ -85,8 +85,8 @@ ul a{
 }
 .greetings{
     display: flex;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
     align-items: center;
@@ -151,7 +151,7 @@ ul a{
     background-color: rgb(1,1,1, .6) ;
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 33px;
     
 }
 .button>button{
@@ -160,6 +160,57 @@ ul a{
     font-size: 24px;
     padding-left: 15px;
     padding-right: 15px;
+   
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    background-color: #55a6df;
+    border-top: 2px solid white;
+}
+.information>h2{
+    text-align: center;
+    
+}
+
+.information>.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex: auto;
+    
+}
+
+.information>.container>.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    
+    
+    
+    
+}
+
+.information>.container>.image>p{
+    display: flex;
+    width: 150px;
+
+    
+    
+    
+}
+.information>.container>.image>a >img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid hotpink;
+    
+
 }
     
     
