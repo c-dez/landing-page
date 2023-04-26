@@ -184,9 +184,12 @@ ul a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 5%;
+    
     flex-wrap: wrap;
     flex: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 5%;
     
 }
@@ -197,8 +200,8 @@ ul a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 250px;
     
     
     
@@ -237,6 +240,39 @@ ul a{
 .quote >p{
     align-self: flex-end;
 }
+.call{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3e4271;
+}
+.call .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    color: white;
+    
+}
+.call>.left>.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+call>.left>.text{
+
+}
+.call button{
+    display: flex;
+    justify-content: center;
+}
+
+
 .footer{
     display: flex;
     background-color: #fd6396;
