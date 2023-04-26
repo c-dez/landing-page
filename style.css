@@ -212,6 +212,17 @@ ul a{
     
 
 }
+.quote{
+    background-color: #3e4271 ;
+    display: flex;
+    border-top: 2px solid white;
+    
+}
+.footer{
+    display: flex;
+    background-color: #fd6396;
+    border-top: 2px solid white;
+}
     
     
     
