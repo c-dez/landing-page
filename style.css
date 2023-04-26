@@ -22,6 +22,8 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 2px solid white;
+    flex-wrap: wrap;
+
 }
 
 .header >.logo-text{
@@ -202,15 +204,15 @@ ul a{
     text-align: center;
     width: 150px;
     height: 250px;
-    
-    
-    
-    
+    color: white;
+    font-family: roboto-r;
 }
 
 .information>.container>.image>p{
     display: flex;
     width: 150px;
+    height: 20px;
+    justify-content: center;
 
     
     
@@ -229,16 +231,19 @@ ul a{
     display: flex;
     flex-direction: column;
     border-top: 2px solid white;
+    border-bottom: 2px solid #55a6df;
     justify-content: center;
     align-items: center;
     padding: 10%;
     color: white;
     font-family: roboto-r;
+    font-size: 24px;
     /* text-align: justify; */
     
 }
 .quote >p{
     align-self: flex-end;
+    font-size: 18px;
 }
 .call{
     display: flex;
@@ -250,14 +255,17 @@ ul a{
     padding: 10px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #3e4271;
+    background-color: #55a6df;
+    padding: 2%;
+    gap: 10px;
 }
 .call .left{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 400px;
+    /* width: 400px; */
     color: white;
+    font-family: roboto-r;
     
 }
 .call>.left>.title{
@@ -270,17 +278,31 @@ call>.left>.text{
 .call button{
     display: flex;
     justify-content: center;
+    background-color: #55a6df;
+    border:2px solid white;
+   
+    font-family: roboto-r;
+    font-weight: bold;
+    font-size: 18px;
+}
+.call>button>a{
+    text-decoration: none;
+    color: white;
+     padding: 10px 20px; 
+    
+    
 }
 
 
 .footer{
     display: flex;
     background-color: #fd6396;
-    border-top: 2px solid white;
+    border-top: 2px solid #55a6df;
     color: white;
     justify-content: center;
     align-items: center;
-    font-family: alien;
+    font-family: roboto-r;
+    height: 20px;
 }
     
     
