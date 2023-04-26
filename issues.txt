@@ -1,0 +1,3 @@
+-dont like how the katakana text in .header>.kata is /w shrank page , it stays centered
+-.background>.right>.image>img wanted to be responsive, but it works being fix size
+

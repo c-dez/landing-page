@@ -57,6 +57,8 @@ ul .icon{
 }
 .header>.logo{
     display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
     /* flex: 1; */
 }
 .links>ul{
@@ -160,6 +162,7 @@ ul a{
     font-size: 24px;
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 10%;
    
 }
 .information{
@@ -170,6 +173,10 @@ ul a{
 }
 .information>h2{
     text-align: center;
+    color: white;
+    text-transform:uppercase;
+    font-family: roboto-r;
+    padding-bottom: 16px;
     
 }
 
@@ -180,6 +187,7 @@ ul a{
     gap: 5px;
     flex-wrap: wrap;
     flex: auto;
+    padding-bottom: 5%;
     
 }
 
@@ -208,20 +216,35 @@ ul a{
 .information>.container>.image>a >img{
     width: 150px;
     height: 150px;
-    border: 5px solid hotpink;
+    border: 5px solid #fd6396;
+    border-radius: 10%;
     
 
 }
 .quote{
     background-color: #3e4271 ;
     display: flex;
+    flex-direction: column;
     border-top: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    color: white;
+    font-family: roboto-r;
+    /* text-align: justify; */
     
+}
+.quote >p{
+    align-self: flex-end;
 }
 .footer{
     display: flex;
     background-color: #fd6396;
     border-top: 2px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: alien;
 }
     
     
